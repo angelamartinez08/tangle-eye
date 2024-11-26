@@ -18,6 +18,9 @@ make test
 
 Use tracker = "None" as in the screenshot to demo without an eye tracker
 
+## Eye Data
+An `edf2asc` converted eyetracking file is in [`example/wf_20241126.asc`](example/wf_20241126.asc)
+
 ## Resources
 For more eye tracking specific interface see 
   * [`pylink_help.py`](https://github.com/LabNeuroCogDevel/lncdtask/blob/main/lncdtask/pylink_help.py) for lncdtask code
