@@ -21,6 +21,9 @@ Use tracker = "None" as in the screenshot to demo without an eye tracker
 ## Eye Data
 An `edf2asc` converted eyetracking file is in [`example/wf_20241126.asc`](example/wf_20241126.asc)
 
+Retrive with `git lfs pull`. Plotting with `read.R`
+![](example/wf_20241126.png)
+
 ## Resources
 For more eye tracking specific interface see 
   * [`pylink_help.py`](https://github.com/LabNeuroCogDevel/lncdtask/blob/main/lncdtask/pylink_help.py) for lncdtask code
