@@ -70,6 +70,7 @@ def random_pos_df(dur: float, n: int) -> pd.DataFrame:
     #: Y in original ROIs is flipped: top is "1" here
     df.loc[:, "y"] = -1 * adjust_coord(df["y"], img_size[1])
     df["event_name"] = "dot"
+    # NB: n>1 doesn't repeat! TODO: duplicate before sample?
     df = df.sample(frac=n)
     df["onset"] = np.arange(df.shape[0]) * dur
     return df
@@ -161,6 +162,8 @@ def run():
 
     eyecal.run(end_wait=1)
     eyecal.onset_df.to_csv(participant.run_path(f"run-{run_info.run_num()}_info"))
+
+    eyecal.background.draw()
     eyecal.msg(f"Thanks for playing!")
     win.close()
 
