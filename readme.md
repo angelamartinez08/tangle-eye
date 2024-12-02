@@ -27,5 +27,6 @@ Retrive with `git lfs pull`. Plotting with `read.R`
 ## Resources
 For more eye tracking specific interface see 
   * [`pylink_help.py`](https://github.com/LabNeuroCogDevel/lncdtask/blob/main/lncdtask/pylink_help.py) for lncdtask code
-  * https://rad.pitt.edu/wiki/doku.php?id=eyetracking:eyelink:task_integration for more info for use at the scanner
-  * https://www.sr-research.com/support/thread-13.html for free-regirstation required SDK download on the EyeLink forums
+  * [more info for use at the MRRC/scanner](https://rad.pitt.edu/wiki/doku.php?id=eyetracking:eyelink:task_integration)
+  * [free-regirstation required SDK download on the EyeLink forums](https://www.sr-research.com/support/thread-13.html)
+  * [SR Research EyeLink in Psychopy YouTube video](https://www.youtube.com/watch?v=1tLJHVktrEk)
