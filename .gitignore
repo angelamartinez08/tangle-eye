@@ -1,3 +1,5 @@
 .venv/
 subj_info/
 __pycache__/
+.RData
+.Rhistory
