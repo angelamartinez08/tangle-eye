@@ -28,8 +28,9 @@ def main():
     fix = visual.TextStim(win, text='+',color='white', bold=True)
 
 
-    ## eye tracking camera setup
-    camera = eye.eyelink(win.size, ip='')
+    ## eye tracking camera setup -- set eyelink ip to '' for dummy mode
+    #  dummy mode still requires installing dev kit
+    camera = eye.eyelink(win.size) #, ip='')
 
     ## implemeted as camera.open()
     # here for demo
