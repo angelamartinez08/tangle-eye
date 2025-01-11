@@ -24,6 +24,13 @@ An `edf2asc` converted eyetracking file is in [`example/wf_20241126.asc`](exampl
 Retrive with `git lfs pull`. Plotting with `read.R`
 ![](example/wf_20241126.png)
 
+## Flip images benchmark
+Is it better to pre-render and flip one giant texture or generate dispaly on the fly?
+For real time perforance, it doesn't matter. See [`imgflip_benchmark.py`](imgflip_benchmark.py). Flip times are still limited by refresh rate.
+> flipped 10 images in 0.033s per iteration
+> one large image flipped 0.033s per iteration
+
+
 ## Resources
 For more eye tracking specific interface see 
   * [`pylink_help.py`](https://github.com/LabNeuroCogDevel/lncdtask/blob/main/lncdtask/pylink_help.py) for lncdtask code
