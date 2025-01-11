@@ -25,8 +25,9 @@ Retrive with `git lfs pull`. Plotting with `read.R`
 ![](example/wf_20241126.png)
 
 ## Flip images benchmark
-Is it better to pre-render and flip one giant texture or generate dispaly on the fly?
-For real time perforance, it doesn't matter. See [`imgflip_benchmark.py`](imgflip_benchmark.py). Flip times are still limited by refresh rate.
+Is it better to pre-render and flip one giant texture or generate display on the fly?
+For real-time performance, it doesn't matter. See [`imgflip_benchmark.py`](imgflip_benchmark.py). Flip times are still limited by refresh rate (2 `win.flips()` at 60Hz = `0.033s`).
+
 > flipped 10 images in 0.033s per iteration
 > one large image flipped 0.033s per iteration
 
