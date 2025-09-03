@@ -76,6 +76,7 @@ def main():
     ## trial 2
     ####
     #camera.trial_start(2)
+    fix.text = 'hello'
     fix.draw()
     #win.callOnFlip(camera.trigger, 'fix')
     time.sleep(1)
